@@ -1,0 +1,267 @@
+/* .main-container{
+    width: 1300px;
+    margin: auto;
+} */
+body{
+    margin: 0;
+}
+/* navbar */
+.navbar-main{
+    width: 1300px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: 25px;
+}
+.nav-link{
+    margin: 0 25px;
+    color: grey;
+    text-decoration: none;
+}
+.nav-link:active{
+    font-weight: bold;
+}
+.firstSelected{
+    font-weight: bold;
+}
+.nav-1 img{
+    width: 50px;
+}
+.nav-2{
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    border-radius: 1.25rem;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    border: none;
+    width: fit-content;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+.search-txt{
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  width: 200px;
+}
+.search-txt:focus{
+    outline: none;
+}
+.search{
+    margin-right: 15px;
+}
+.profile{
+    margin-left: 45px;
+}
+
+/* Green Strip */
+.green_strip{
+    background-color: #1e3932;
+    width: 100%;
+    margin: 20px 0;
+    
+}
+.gs-width{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.green_strip p{
+    color: white;
+    font-size: 22px;
+    padding: 10px 0;
+}
+.km-btn{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* Content */
+
+/* Curation */
+.hs-curat{
+    width: 1300px;
+    margin: auto;
+}
+.hs-heading{
+    font-size: 26px;
+    font-weight: bold;
+    color: #1e3932;
+}
+.hs-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item img{
+    border-radius: 50%;
+    width: 100px;
+}
+.item p{
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Barista */
+.bs-recom{
+    background-color: #edebe9;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.bs-recom-width{
+    width: 1300px;
+    margin: auto;
+}
+.bs-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bs-heading{
+    font-size: 26px;
+    font-weight: bold;
+    color: #1e3932;
+}
+.vm-txt{
+    font-size: 16px;
+    font-weight: bold;
+    color: #00754a;
+}
+.bs-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bs-card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 25px 0 20px;
+    width: 350px;
+}
+.bs-card-head{
+    display: flex;
+}
+.bs-card-head img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card-txt{
+    margin-left: 15px;
+}
+.card-txt img{
+    height: 16px;
+    width: 16px;
+}
+.card-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    font-size: 16px;
+    font-weight: bold;
+}
+.item-btn{
+    background-color: #00754a;
+    color: white;
+    width: 100px;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+    border-color: white;
+    font-weight: bold;
+}
+
+/* green card */
+.gc-main{
+    width: 1300px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.green-card{
+    background-color: rgb(37 156 94);
+    border-radius: 10px;
+    display: flex;
+}
+.gc-img{
+    width: 120px;
+    margin-right: 50px;
+}
+.gc-content{
+    color: white;
+    width: 1300px;
+}
+.gc-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.order-btn{
+    width: 200px;
+    height: 35px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    margin-right: 100px;
+}
+
+/* Footer */
+.footer-main{
+    background-color: #1e3932;
+}
+.footer-width{
+    width: 1300px;
+    margin: auto;
+}
+.footer-content{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+.f-head{
+    font-weight: bold;
+    color: white;
+}
+.f-txt{
+    color: white;
+}
+.play-img{
+    display: flex;
+    flex-direction: column;
+}
+.f-lower{
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
